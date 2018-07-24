@@ -50,6 +50,8 @@ pipeline {
         stage('Dependency Vulnerability Scan') {
           steps {
             sleep 1
+            sh '''asdswqww
+asfdds'''
           }
         }
         stage('Artifact Signing') {
